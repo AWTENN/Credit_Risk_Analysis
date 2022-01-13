@@ -6,51 +6,57 @@
 
 ## Results
 
-	### NaÔve Random Oversampling
+	### Na√Øve Random Oversampling
 		
-- 
+- ![image](https://user-images.githubusercontent.com/89875730/149418920-80f3afd3-df87-4d90-a6ea-f57dcf017a8d.png)
+
 - The Balanced Accuracy score for the Naive Random Oversampling model is 0.66. This means that the model is 66% accurate at predicting high credit risk.
-- Precision for the NaÔve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
-- Sensitivity for the NaÔve Random Oversampling for high credit risk is 0.68 meaning that the model is mediocre at identifying high credit risk people.
+- Precision for the Na√Øve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
+- Sensitivity for the Na√Øve Random Oversampling for high credit risk is 0.68 meaning that the model is mediocre at identifying high credit risk people.
 
 ### SMOTE Oversampling
 
-- 
+- ![image](https://user-images.githubusercontent.com/89875730/149418954-b37a5ad7-20d6-488d-a89f-0ba27dc17061.png)
+
 - The Balanced Accuracy score for the SMOTE Oversampling model is 0.65. This means that the model is 65% accurate at predicting high credit risk.
-- Precision for the NaÔve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
-- Sensitivity for the NaÔve Random Oversampling for high credit risk is 0.61 meaning that the model is mediocre at identifying high credit risk people.
+- Precision for the Na√Øve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
+- Sensitivity for the Na√Øve Random Oversampling for high credit risk is 0.61 meaning that the model is mediocre at identifying high credit risk people.
 
 
 ### Cluster Centroid Undersampling
 
-- 
+- ![image](https://user-images.githubusercontent.com/89875730/149418980-4e7c448d-d9ad-4cd3-910a-715d7304bcaa.png)
+
 - The Balanced Accuracy score for the SMOTE Oversampling model is 0.54. This means that the model is 65% accurate at predicting high credit risk.
-- Precision for the NaÔve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
-- Sensitivity for the NaÔve Random Oversampling for high credit risk is 0.69 meaning that the model is mediocre at identifying high credit risk people.
+- Precision for the Na√Øve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
+- Sensitivity for the Na√Øve Random Oversampling for high credit risk is 0.69 meaning that the model is mediocre at identifying high credit risk people.
 
 
 ### SMOTEENN
 
-- 
+- ![image](https://user-images.githubusercontent.com/89875730/149418991-00bdcdde-d3fc-4c8e-bea6-730c386f9f03.png)
+
 - The Balanced Accuracy score for the SMOTE Oversampling model is 0.67. This means that the model is 67% accurate at predicting high credit risk.
-- Precision for the NaÔve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
-- Sensitivity for the NaÔve Random Oversampling for high credit risk is 0.74 meaning that the model is mediocre, but the best of the sampling methods at identifying high credit risk people.
+- Precision for the Na√Øve Random Oversampling for high credit risk is 0.01 meaning that model is unreliable on predicting true high credit risks.
+- Sensitivity for the Na√Øve Random Oversampling for high credit risk is 0.74 meaning that the model is mediocre, but the best of the sampling methods at identifying high credit risk people.
 
 
 ### Balanced Random Forest Classifier
 
-- 
+- ![image](https://user-images.githubusercontent.com/89875730/149419008-6dcd0ff8-f76f-417b-af64-37e37d830890.png)
+
 - The Balanced Accuracy score for the SMOTE Oversampling model is 0.955. This means that the model is 95.5% accurate at predicting high credit risk.
-- Precision for the NaÔve Random Oversampling for high credit risk is 0.06 meaning that model is unreliable on predicting true high credit risks, but higher than any of under/over sampling techniques.
-- Sensitivity for the NaÔve Random Oversampling for high credit risk is 1.00 meaning that the model is ìperfectî at identifying high credit risk people.
+- Precision for the Na√Øve Random Oversampling for high credit risk is 0.06 meaning that model is unreliable on predicting true high credit risks, but higher than any of under/over sampling techniques.
+- Sensitivity for the Na√Øve Random Oversampling for high credit risk is 1.00 meaning that the model is ‚Äúperfect‚Äù at identifying high credit risk people.
 
 
 ### Easy Ensemble AdaBoost
 
-- 
+- ![image](https://user-images.githubusercontent.com/89875730/149419036-606a1efe-0c45-494a-a806-1d8286e8ce2b.png)
+
 - The Balanced Accuracy score for the SMOTE Oversampling model is 0.96. This means that the model is 96% accurate at predicting high credit risk.
-- Precision for the NaÔve Random Oversampling for high credit risk is 0.11 meaning that model is still unreliable on predicting true high credit risks, but it is the best model for predicting a high credit risk.
-- Sensitivity for the NaÔve Random Oversampling for high credit risk is 0.97 meaning that the model is near perfect at identifying high credit risk people.
+- Precision for the Na√Øve Random Oversampling for high credit risk is 0.11 meaning that model is still unreliable on predicting true high credit risks, but it is the best model for predicting a high credit risk.
+- Sensitivity for the Na√Øve Random Oversampling for high credit risk is 0.97 meaning that the model is near perfect at identifying high credit risk people.
 
 
 ## Summary
